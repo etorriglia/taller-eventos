@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+    <script src="js/eventos.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Saludar</title>
+</head>
+<body>
+<div id="greenDiv">
+    <button id="saludar">Saludar!</button>
+</div>
+
+</body>
+</html>
+
+*/1- Un evento es algo que el usuario o el navegador hacen como puede ser hacer click sobre un botón, cargar una página, o llenar un campo.
+
+2- Los eventos se pueden manejar mediante HTML (por ejemplo con el atributo onclick=función_a_ejecutar en la etiqueta button) o mediante DOM utilizando addEventListener("evento", función_a_ejecutar). En el segundo caso, se interpreta que cuando el usuario haga click en un determinado elemento, se ejecutará una función específica.
+
+3- Considero que no es una buena práctica utilizar el atributo onclick, ya que implicaría reescribir código cada vez que se quiera asignar una función a un elemento, por ejemplo.
+
+4- Otros ejemplos de eventos son onmouseover (que se podría utilizar para agrandar una imagen cuando se pasa el puntero del mouse sobre ella), onload (que se puede usar para mostrar un mensaje cuando termina de cargarse una página), y para cambiar la opacidad de una imagen cuando está siendo arrastrada como en el caso de drag.
+
+5-/*
